@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form</title>
+    <link rel="stylesheet" href="table&form.css">
+</head>
+<body>
+    <caption>Table</caption>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>ID</td>
+                <td>Marks</td>
+                <td>Grade</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jahangir</td>
+                <td>J25</td>
+                <td>50</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Manik</td>
+                <td>M90</td>
+                <td>48</td>
+                <td>A-</td>
+            </tr>
+            <tr>
+                <td>Alin</td>
+                <td>A330</td>
+                <td>47</td>
+                <td>A-</td>
+            </tr>
+            <tr>
+                <td>Mim</td>
+                <td>M50</td>
+                <td>49</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <form action="">
+        <p>Name: <input type="text" name="amar-name" placeholder="Enter Name"></p>
+        <p>Email: <input type="email" name="emails" id=""></p>
+        <fieldset>
+                <legend>Select Your Pitha</legend>
+                    <label for="vapa-pitha"><p>Vapa pitha<input type="radio" name="vapa" id="vapa-pitha"></p></label>
+                    <label for="citoi-pitha"><p>Chitoi<input type="radio" name="vapa" id="citoi-pitha"></p></label>
+                    <label for="malpoya-pitha"><p>Malpoya<input type="radio" name="malpoya" id="malpoya-pitha"></p></label>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Vorta</legend>
+            <p>Alu Vorta<label for="alu"><input type="checkbox" name="alu-vorta" id="alu"></label></p>
+            <p>Begun Vorta<label for="begun"><input type="checkbox" name="alu-vorta" id="begun"></label></p>
+            <p>Dal Vorta<label for="dal"><input type="checkbox" name="dal-vorta" id="dal"></label></p>
+        </fieldset><br>
+        <textarea name="Review" id="" cols="42" rows="10"></textarea>
+        <br> <br>
+        <button type="reset">Reset All</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

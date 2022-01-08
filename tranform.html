@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+        .container, .inner{
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+        }
+        .container{
+            background-color: yellow;
+        }
+        .inner{
+            background-color: violet;
+            transform: rotate(50deg) scale(0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="box container">
+        <div class="inner">div-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">div-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">div-3</div>
+    </div>
+</body>
+</html>

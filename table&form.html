@@ -6,16 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table and Form</title>
     <link rel="stylesheet" href="table&form.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="table&form.html">form</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contuct</a></li>
+                <li><a href="#">Blog</a></li>
+                <h1>Welcome to my table</h1>
+            </ul>
+        </nav>
+    </header>
     <caption>Table</caption>
     <table>
         <thead>
             <tr>
-                <td>Name</td>
-                <td>ID</td>
-                <td>Marks</td>
-                <td>Grade</td>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Marks</th>
+                <th>Grade</th>
             </tr>
         </thead>
         <tbody>
@@ -49,6 +63,16 @@
     <form action="">
         <p>Name: <input type="text" name="amar-name" placeholder="Enter Name"></p>
         <p>Email: <input type="email" name="emails" id=""></p>
+        <p>Select Your Gender: 
+            <select name="gender" id="">
+                <option required value="male">Select</option>
+                <option value="male">Male</option>
+                <option value="male">Female</option>
+                <option value="male">Other</option>
+            </select>
+            <br> <br>
+        </p>
+
         <fieldset>
                 <legend>Select Your Pitha</legend>
                     <label for="vapa-pitha"><p>Vapa pitha<input type="radio" name="vapa" id="vapa-pitha"></p></label>

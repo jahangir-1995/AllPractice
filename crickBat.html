@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation With Cricket Bat</title>
+
+    <style>
+        .filed{
+            border: 2px solid red;
+        }
+        .ball{
+            height: 40px;
+            width: 40px;
+            background-color: red;
+            border-radius: 25px;
+            position: relative;
+            left: 238px;
+            bottom: 140px;
+            transition: transform 1s ease-out 0.25s;
+        }
+        .bat{
+            transition: transform 0.2s ease-in; 
+        }
+        .filed:hover .bat{
+            transform: rotate(-40deg);
+            transform-origin: top right;
+        }
+        .filed:hover .ball{
+            transform: translate(420px, -190px);
+        }
+    </style>
+</head>
+<body>
+    <div class="filed">
+        <img class="bat" src="media/Images/bat.png" alt="">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

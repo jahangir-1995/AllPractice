@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calander With Grid</title>
+    <style>
+        .grid-calender{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 30px;
+        }
+        .grid-cell, .day{
+            color: rgba(27, 26, 26, 0.781);
+            background-color: hotpink;
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .other-day{
+            background-color: burlywood;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Calender 2022 January</h2>
+    <div class="grid-calender">
+        <grid class="day">Sunday</grid>
+        <grid class="day">Monday</grid>
+        <grid class="day">Tuesday</grid>
+        <grid class="day">Wenesday</grid>
+        <grid class="day">Thuesday</grid>
+        <grid class="day">Friday</grid>
+        <grid class="day">Satureday</grid>
+
+        <div class="grid-cell other-day">26</div>
+        <div class="grid-cell other-day">27</div>
+        <div class="grid-cell other-day">28</div>
+        <div class="grid-cell other-day">29</div>
+        <div class="grid-cell other-day">30</div>
+        <div class="grid-cell other-day">31</div>
+        <div class="grid-cell">1</div>
+        <div class="grid-cell">2</div>
+        <div class="grid-cell">3</div>
+        <div class="grid-cell">4</div>
+        <div class="grid-cell">5</div>
+        <div class="grid-cell">6</div>
+        <div class="grid-cell">7</div>
+        <div class="grid-cell">8</div>
+        <div class="grid-cell">9</div>
+        <div class="grid-cell">10</div>
+        <div class="grid-cell">11</div>
+        <div class="grid-cell">12</div>
+        <div class="grid-cell">13</div>
+        <div class="grid-cell">14</div>
+        <div class="grid-cell">15</div>
+        <div class="grid-cell">16</div>
+        <div class="grid-cell">17</div>
+        <div class="grid-cell">18</div>
+        <div class="grid-cell">19</div>
+        <div class="grid-cell">20</div>
+        <div class="grid-cell">21</div>
+        <div class="grid-cell">22</div>
+        <div class="grid-cell">23</div>
+        <div class="grid-cell">24</div>
+        <div class="grid-cell">25</div>
+        <div class="grid-cell">26</div>
+        <div class="grid-cell">27</div>
+        <div class="grid-cell">28</div>
+        <div class="grid-cell">29</div>
+        <div class="grid-cell">30</div>
+        <div class="grid-cell">31</div>
+        <div class="grid-cell other-day">1</div>
+        <div class="grid-cell other-day">2</div>
+        <div class="grid-cell other-day">3</div>
+        <div class="grid-cell other-day">4</div>
+        <div class="grid-cell other-day">5</div>
+        
+    </div>
+</body>
+</html>
